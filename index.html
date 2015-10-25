@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elm Interop</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div id="elm-app" class="container"></div>
+  <div class="container">
+    <h1>JavaScript</h1>
+    <button id="send-js-msg">Send message from JavaScript</button>
+    <pre id="msg-displayer"></pre>
+  </div>
+
+  <script src="elm.js"><!-- This is our Elm app --></script>
+  <script src="app.js"><!-- This wires up our Elm app --></script>
+</body>
+</html>
